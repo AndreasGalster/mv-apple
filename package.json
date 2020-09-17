@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "npx hint . && npx stylelint '**/*.{css,scss}'"
+    "lint": "hint . && stylelint '**/*.{css,scss}'"
   },
   "devDependencies": {
     "hint": "^6.1.0",
