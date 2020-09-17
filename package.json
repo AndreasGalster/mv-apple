@@ -1,9 +1,16 @@
 {
   "scripts": {
-    "lint": "hint . && stylelint '**/*.{css,scss}'"
+    "lint": "hint . && stylelint '**/*.{css,scss}'",
+    "prettier-format": "prettier --config .prettierrc.json './*.html' './**/*.css' --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier-format && npm run lint"
+    }
   },
   "devDependencies": {
     "hint": "^6.1.0",
+    "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "stylelint": "13.3.x",
     "stylelint-config-standard": "20.0.x",
