@@ -1,5 +1,13 @@
 {
+  "scripts": {
+    "lint": "npx hint . && npx stylelint '**/*.{css,scss}'"
+  },
   "devDependencies": {
-    "prettier": "^2.1.2"
+    "hint": "^6.1.0",
+    "prettier": "^2.1.2",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "3.17.x"
   }
 }
