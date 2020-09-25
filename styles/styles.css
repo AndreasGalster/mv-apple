@@ -32,6 +32,11 @@ header ul li {
   flex: 1;
   background: linear-gradient(to top, #888, #707070 50%, #5e5e5e 50%, #777);
   position: relative;
+  border-right: 1px solid #4f4f4f;
+}
+
+header ul li:not(:first-child) {
+  box-shadow: -1px 0 0 1px #7c7c7c, -2px 0 0 1px #4f4f4fb3, -4px 0 0 1px #7c7c7c;
 }
 
 header ul li:not(#search-bar):hover {
@@ -49,6 +54,38 @@ header ul li a {
   justify-content: center;
   color: white;
   text-decoration: none;
+}
+
+header input {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  width: 100px;
+  transition: all 0.2s ease-in-out;
+  padding: 5px 5px 5px 25px;
+  font-size: 12px;
+}
+
+header input:focus {
+  background: white;
+  width: 200px;
+}
+
+#search-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#search-bar img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 30px;
+  top: 14px;
 }
 
 main {
