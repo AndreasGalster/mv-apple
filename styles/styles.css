@@ -94,9 +94,18 @@ main {
   width: 100%;
 }
 
+#promos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+
+#promos img {
+  width: 100%;
+}
+
 #hero {
   width: 100%;
-  /* background-color: aquamarine; */
   background-image: url(../assets/images/your_verse_hero.jpg);
   background-size: cover;
   background-position: bottom center;
@@ -112,25 +121,27 @@ main {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-h1,
-h2,
-h3 {
+
+#hero h1,
+#hero h2,
+#hero h3 {
   color: white;
   font-weight: 300;
 }
-h1 {
+
+#hero h1 {
   font-size: 74px;
   font-weight: 200;
   margin: 38px auto 0;
 }
 
-h2 {
+#hero h2 {
   font-size: 34px;
   margin: 14px auto 0;
   line-height: 1.2;
 }
 
-h3 {
+#hero h3 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -138,16 +149,6 @@ h3 {
   margin: 35px auto 0;
 }
 
-h3 img {
+#hero h3 img {
   margin-left: 12px;
-}
-
-#promos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-}
-
-#promos img {
-  width: 100%;
 }
