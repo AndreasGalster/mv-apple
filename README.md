@@ -1,14 +1,15 @@
-# HTML & CSS: New York Times Article
+# HTML & CSS: Apple Website
 
-![screenshot](https://user-images.githubusercontent.com/3836411/94164815-cc502300-fe89-11ea-94ab-43265d89a697.png)
+![screenshot](https://user-images.githubusercontent.com/3836411/94282221-db010d80-ff4f-11ea-8e29-f8e20a0e9608.png)
 
-This is the New York Times project (positioning & floating elements) for the HTML & CSS section.
+This is the Apple Website project (backgrounds & gradients) for the HTML & CSS section.
 
-You can view a live demo [via this link 👀](https://raw.githack.com/AndreasGalster/mv-nyt/article/index.html)
+You can view a live demo [via this link 👀](https://raw.githack.com/AndreasGalster/mv-apple/apple/index.html)
 
 ## Built With
 
 - HTML & CSS
+- Husky for automatic linting checks onn commits
 
 ### Prerequisites
 
