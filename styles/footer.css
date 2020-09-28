@@ -1,0 +1,38 @@
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: grey;
+  font-size: 12px;
+}
+
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin-right: 7px;
+}
+
+#footer-first-line,
+#copyright {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#copyright {
+  justify-content: left;
+}
+
+#copyright ul {
+  margin-left: 10px;
+}

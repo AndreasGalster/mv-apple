@@ -1,0 +1,59 @@
+main,
+#promos,
+#promos img,
+#hero,
+#hero div {
+  width: 100%;
+}
+
+#promos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#hero {
+  background-image: url(../assets/images/your_verse_hero.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  height: 538px;
+  position: relative;
+}
+
+#hero div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#hero h1,
+#hero h2,
+#hero h3 {
+  color: white;
+  font-weight: 300;
+}
+
+#hero h1 {
+  font-size: 74px;
+  font-weight: 200;
+  margin: 38px auto 0;
+}
+
+#hero h2 {
+  font-size: 34px;
+  margin: 14px auto 0;
+  line-height: 1.2;
+}
+
+#hero h3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 26px;
+  margin: 35px auto 0;
+}
+
+#hero h3 img {
+  margin-left: 12px;
+}
