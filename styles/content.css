@@ -1,19 +1,17 @@
-main {
+main,
+#promos,
+#promos img,
+#hero,
+#hero div {
   width: 100%;
 }
 
 #promos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-}
-
-#promos img {
-  width: 100%;
 }
 
 #hero {
-  width: 100%;
   background-image: url(../assets/images/your_verse_hero.jpg);
   background-size: cover;
   background-position: bottom center;
@@ -22,7 +20,6 @@ main {
 }
 
 #hero div {
-  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
